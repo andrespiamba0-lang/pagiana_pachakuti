@@ -390,7 +390,7 @@ mark {
 
 
 body {
-  padding-top: 220px; /* header + nav fijo */
+  padding-top: 200px; /* header + nav fijo */
 }
 
 @media (max-width: 768px) {
