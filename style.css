@@ -396,10 +396,7 @@ body {
 }
 
 
-body {
-  margin: 0;
-  padding-top: 220px; /* espacio real del header + menú */
-}
+
 
 body, html {
   margin: 0;
