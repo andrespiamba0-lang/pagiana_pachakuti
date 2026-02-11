@@ -63,6 +63,27 @@ nav {
 }
 
 nav ul {
+  display: flex;
+  flex-wrap: wrap;  /* 🔥 permite que los items bajen */
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 5px 12px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -381,5 +402,28 @@ mark {
   h2 {
     font-size: 20px;
   }
+}
+
+
+
+@media (max-width: 768px) {
+
+  nav {
+    top: 60px; /* ajusta si el header es más pequeño en celular */
+  }
+
+  nav ul {
+    flex-direction: column;  /* menú vertical */
+  }
+
+  nav ul li {
+    margin: 8px 0;
+  }
+
+}
+
+
+body {
+  padding-top: 130px; /* header + nav fijo */
 }
 
